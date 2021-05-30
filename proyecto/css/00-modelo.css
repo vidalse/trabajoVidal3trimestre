@@ -79,6 +79,9 @@ border: 7px ridge gray;width:20%; margin-top:10px; margin-left:38%; margin-botto
 	float:left;
 	color:white;background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg');
 		}
+		.piedos{ 
+	color:white;background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg');
+		}
    
    #botonAtras{border:5px groove #ffffff;float:right; 
    width:13%; margin-right:1%;margin-top:4%;margin-left:3%;height:50px; width:50px;}
@@ -139,7 +142,7 @@ border: 7px groove #7ad7ff;text-align:center;padding-top:2%;padding-bottom:3%;ba
 	--colorBgDia: ;
 	--colorBgNoche: ;
 
-	--colorDia: red;
+	--colorDia: purple;
 	--colorNoche: blue;
 
 	--colorBg: var(--colorBgNoche);
@@ -354,9 +357,12 @@ border: 2px groove #bf54bf;
 		
 		
 		.contenedorprimero{
+			
 			margin-bottom:2%;
 		}
-		
+		#textoinicial1 a:hover {
+			font-size:20px;
+		}
 		.contenedoruno{
 			margin:5%;
 		}
@@ -396,11 +402,19 @@ box-shadow: 0px 0px 60px -10px rgba(159,38,163,1);
 			margin-left:9%;
 			
 			}
+					#diagrama{
+					width:max;
+					height:max;
+					padding:2%;
+					}
+					
+					
 		#vidaldos{
 			width:240px;
 			height:240px;
 			float:right;
-			
+			display:flex;
+			margin-bottom:5%;
             margin-right:12%;
 		}
 		#vidaldos:hover {
