@@ -15,7 +15,7 @@ fecha: Marzo
 }
 .contenido3{
 	
-	background-image: url('../fotos/thumb.jpg'); 
+	background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/thumb.jpg'); 
 }
 #vidalcinc{
 	
@@ -35,9 +35,9 @@ fecha: Marzo
 	
 	float:right; width:13%; margin-right:3%
 }
-.formulario{background-image: url('../fotos/descarga(1).jpg');}
+.formulario{background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg');}
 .log-in{
-	background-image: url('fotos/descarga(1).jpg');
+	background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg');
 	display:layout;
 }
 #vidaltre{
@@ -45,7 +45,7 @@ fecha: Marzo
 		}
 		.actualsite{
 			
-			background-image: url('fotos/descarga(1).jpg'); height: 6vh; margin-bottom:2px;
+			background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg'); height: 6vh; margin-bottom:2px;
 		}
 #textoActualSite{
 	color:white;margin-top:8%;text-shadow:5px 5px #9f26a3;padding-left:33%;
@@ -58,7 +58,7 @@ fecha: Marzo
 .contenido {
 			
 		  
-		  padding-top:45px;background-image: url('fotos/descarga(1).jpg');
+		  padding-top:45px;background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg');
 		  
 		}
 .contenidoNormas{
@@ -77,7 +77,7 @@ border: 7px ridge gray;}
 border: 7px ridge gray;width:20%; margin-top:10px; margin-left:38%; margin-bottom:2%; margin-top:3%;}
 .pie{ 
 	float:left;
-	color:white;background-image: url('fotos/descarga(1).jpg');
+	color:white;background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg');
 		}
    
    #botonAtras{border:5px groove #ffffff;float:right; 
@@ -264,7 +264,7 @@ border: 7px groove #7ad7ff;
 			display:block;
 			height:200px;
 			background-repeat: round;
-			background-image: url('../fotos/descarga(1).jpg');
+			background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg');
 			font-family:Garamond (serif);
 		
 			/* grid-column: 1 / span 2;
