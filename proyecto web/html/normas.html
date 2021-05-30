@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+web o pagina:HTML
+autor: Vidal Segura
+fecha: Abril 2021
+-->
+
+<head>
+
+		<title>PaintBallES</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	
+	<meta charset="UTF-8"/>                                                 
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>  
+	
+	<!-- importante SEO para la etiqueta del navegador -->                  
+	<title>Trabajo Vidal CENEC</title>                                      
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>                                            
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>    
+	
+	<!-- una hoja de estilos externa-->                                  
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="../css/00-modelo.css" rel="stylesheet"/>                                                         
+	
+	<!-- iconos u otros elementos externos -->                                                                              
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	
+
+	</style>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->                            
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="../js/00-modelo(T).js"></script>                                                     
+	
+	                                                   
+	
+	
+</head>
+
+
+<body>
+
+		
+		
+		
+		
+		
+		
+		<div class="menuuno1ind" style="background-image: url('../fotos/descarga(1).jpg');">
+		<a href="https://www.cenecmalaga.es/"><img id="vidaltre" style="" src="../fotos/cenec.jpg"/></a>
+		<ul class="nav">
+			
+				<li><a href="../index.html"><H2>Inicio</H2></a></li>
+				
+				<li><a href=""><H2>Campo de tiro</H2></a>
+					<ul>
+						<li><a href="">Granada</a></li>
+						<li><a href="">Málaga</a></li>
+							
+					</ul>
+				</li>
+				
+				<li><a href=""><H2>Bases del Paintball</H2></a>
+					<ul>
+						<li><a href="../html/normas.html">Conceptos básicos</a></li>
+						<li><a href="../html/tiposdejue.html">Tipos de juego</a></li>
+						
+					</ul>
+				</li>
+				<li><a href="../html/actualidad.html"><H2>Contacto</H2></a></li>
+				<li><a href="../html/dolly.html"><H2>Dolly</H2></a></li>
+			</ul>
+			<header>
+		<h1><span id="modo"></span></h1>
+		<br/>
+		<button id="mensajeBoton" onclick="ponerModo('')">Comenzar</button>
+		<br/>
+	</header>
+		<p>
+		
+ <p id="textoActualSite" style="">Normas © PaintBallES                      </H1>
+</p>
+</ul>
+	</div>
+		
+		</div>
+				<div class="log-in";>
+		
+		<div class = "formulario">
+		<form method="GET" style="background-image: url('../fotos/descarga(1).jpg');" id="ingresar" name="miFormulario" action="#" onSubmit="return intentar()">
+			<label for="apellido">Usuario:</label>
+			<input type="text" id="usr" name="formUsuario" required><br>
+			<label for="apellido">Clave:</label>
+			<input type="text" id="clv" name="formClave" required><br>
+			<input type="submit" value="INGRESAR">
+		</form>
+		</div>
+		<button id="desconectar" style="background-image: url('../fotos/descarga(1).jpg');;" onclick="desconectar()">DESCONECTAR</button>
+		
+		<div class="contenido" style="background-image: url('../fotos/descarga(1).jpg');"> 
+		
+
+		</div>
+		
+		
+ 
+		
+		<div class="contenidoNormas" style=""> 
+		
+		
+<div class="contenedorprimero">
+ <p id="titulo1" style="">
+		 <strong>
+		 
+		 INTRODUCCIÓN
+ 
+		 </strong>
+  </p>
+         <p id="textoinicioconcep" style="">
+		 <strong>
+		 
+		 Las reglas del Paintball pueden variar según el tipo de partida que estemos jugando,<br> pero hay unas normas comunes a todos
+		  los campos de Paintball, y <br>unas reglas básicas de seguridad que siempre debemos seguir.<br><br>
+		 Aunque no existe una normativa oficial más alláde las indicadas por la <br>Federación Francesa de Paintball
+		  o las Ligas Profesionales Estadounidenses que<br> digan cómo se tiene que jugar al Paintball, a lo largo
+		 de los años  <br>se han aceptado una serie de normas que hay que cumplir para que las partidas funcionen bien. <br><br>
+		 Éstas son las Normas de seguridad, las Reglas básicas del Paintball, y la normativa que aplica cada campo:<br>
+		
+		 </strong>
+  </p>
+  
+  <p id="titulo2" style="">
+		 <strong>
+		 
+		 1-NORMAS DE PAINTBALL  DE SEGURIDAD 
+ 
+		 </strong>
+  </p>
+  <div class="segundcontendinf">
+  <p id="normassegur" style="">
+		 <strong>
+		 <br>
+		 Las reglas comunes de seguridad son:<br><br>
+<ul style="padding-left:25%;position:left;padding-bottom:2%;">
+  
+<li>--No bajarse o quitarse nunca la máscara.</li>
+<li>--No disparar a menos de 6 metros.</li>
+<li>--No se puede jugar al Paintball para adultos si se es menor de 14 años (R.D.137/1993).</li>
+<li>--No quitar el seguro hasta que estemos dentro el escenario de Paintball.</li>
+<li>--No se debe quitar el chupete hasta que no salimos de la zona de seguridad.</li>
+<li>--Mantener la marcadora (el arma) apuntando al suelo hasta que empiece la partida.</li>
+<li>--No disparar a un contrincante que levanta la mano.</li>
+<li>--No disparar más cuando el monitor pita el final de la partida.<br></li>
+		</ul>
+		
+		 
+		 <p id="primerlinseg" style="">
+  Pero en Gran Paintball Madrid siempre insistimos en 3 reglas básicas de seguridad en el Paintball en las que hacemos <br>
+  mucho hincapié y que deben cumplirse escrupulosamente si queremos que la partida se desarrolle sin incidentes:<br><br>
+</p>
+<p id="normaseguri2" style="">
+1-MÁSCARA DE SEGURIDAD: Llevar siempre puesta la máscara, y no quitársela nunca durante una partida, es la regla más<br>
+ importante del Paintball. Tenéis que tener en cuenta que lo primero que asomamos cuando estamos en un obstáculo es <br>
+ la cabeza, por lo que la mayoría de los disparos nos darán ahí. Por eso es crucial no <br>
+ quitarse bajo ningún concepto la máscara durante la partida.<br><br>
+
+2-ELEMENTOS DE SEGURIDAD DE LAS MARCADORAS: Siempre que estamos fuera del escenario de juego, las marcadoras deben <br>
+tener el seguro puesto, el chupete, y estar apuntando al suelo. Con esto evitamos disparos accidentales en las <br>
+zonas donde los jugadores no llevan puesta la máscara. La regla de oro es poner el seguro automáticamente en <br>
+cuanto salgo del campo, y colocar el chupete en cuanto entramos a la zona de seguridad. El chupete es un elemento<br>
+ de plástico que se coloca al final del cañón, y que impide que la bola salga en caso de disparo accidental.<br><br>
+
+3-DISTANCIA DE SEGURIDAD: La tercera y última de las reglas Paintball es que no debemos disparar si estamos a <br>
+una distancia de menos de 6 metros. Esta norma a veces es difícil de cumplir debido a que en medio de una partida,<br>
+ con la adrenalina al 100%, es difícil estimar las distancias y pararte a pensar si debemos disparar o no,<br>
+ y muchas veces simplemente reaccionamos. Pero cumpliendo esta norma nos aseguramos de que el disparo solo <br>
+ picará un poco, pero en ningún caso nos ocasionará una lesión.<br><br>
+  
+  </p>
+  </div>
+  <p id="titulo3" style="">
+		 <strong>
+		 
+		 2-REGLAS BÁSICAS DEL PAINTBALL
+ 
+		 </strong>
+  </p>
+  <p id="normasbasic" style="">
+  
+  
+  
+ <div class="olakase"> 
+<ul style="padding-right:50%;">
+
+<li>--1. Las normas de competición nos dicen que un jugador está muerto siempre que le dé una bola en cualquier parte del cuerpo.El impacto debe ser<br>
+          directo y provocar mancha, es decir que no vale que nos roce o que explote al lado y nos manche de pintura.</li>
+<br><li>--2. Un disparo en la marcadora, también es muerte. Esto lo hacemos para evitar a los “camperos”, que se esconden detrás de un obstáculo y disparan<br>
+          si asomarse, sacando solo el arma. Para premiar a los jugadores valientes que van a por todas, si nos dan en el arma también estaremos muertos, <br>
+          por lo que deberemos levantar el brazo y dirigirnos fuera del campo de Paintball		  </li>
+<br><li>--3. Los campos deben tener bien reguladas las velocidades a las que salen las bolas de pintura para que tengan un buen alcance, pero no puedan<br>
+          buen alcance, pero no puedan causar lesiones. Las reglas del Paintball establecen una velocidad máxima de 300 <br>
+		  pies por segundo (unos 90 metros por segundo).
+          </li>
+<br><li>--4. Si hay cualquier problema con la marcadora, la máscara, o lo que sea, el jugador saldrá con la mano levantada, y cuando el monitor<br>
+          lo haya solucionado, el jugador entrará con la mano levantada y volverá a esconderse en el último obstáculo en el que estaba. </li>
+<br><li>--5. Si nos encontramos con un enemigo a menos de 6 metros, mataremos usando la voz en vez de disparando. Por ejemplo gritando<br>
+          «muerto». Esto es conocido en el mundo del Paintball como «rendición».</li>
+<br><li>--6. Siempre debemos seguir las indicaciones de los árbitros o  monitores.</li>
+<br><li>--7. También se considera eliminación salir de los límites del campo, recibir fuego «amigo» y quitarse el brazalete.</li>
+<br><li>--8. Si un jugador ha recibido un impacto y no lo dice o no se marcha del campo, y al final <br> de la partida se descubre la mancha, su equipo perderá esa
+ ronda.
+ </ul>
+  </p>
+  </div>
+  </strong>
+  <p id="titulo3" style="">
+		 <strong>
+		 
+		 3-REGLAS ESPECIALES DEL PAINTBALL
+ 
+		 <div class="olakase2">
+  </p>
+  		 <p id="primerlinseg2" style="">
+  En función de los juegos y los objetivos que tengamos, podemos incluir reglas de Paintball especiales para esa partida en concreto. Por ejemplo:<br><br>
+</p>
+<p id="normaseguri3" style="">
+Un impacto se considera herido, y dos impactos muerte.<br>
+Pueden haber médicos que curen a los heridos.<br>
+Las extremidades o la marcadora pueden no considerarse muerte.<br><br>
+<p id="lastline" style="";>
+Muchas de estas reglas se pueden pactar al comienzo de la partida, e incluso se pueden modificar
+ si los participantes ven que<br> pueden hacer el juego más seguro o divertido.
+  </p>
+ </div>
+ </strong>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+
+
+	<span class="ir-arriba "></span>
+
+<!--Agregamos contenido para que aparezca la barra vertical del navegador-->
+	
+	
+	
+<div class="pie" style="color:white;background-image: url('../fotos/descarga(1).jpg');margin-top:2%;">  
+
+Málaga, C/Larios nº2.<br>   Telefono: +34 952 56 78 89
+		
+		</div>   
+     	
+
+<script>
+irArriba();
+INICIOJ();
+contClicks();
+</script>
+
+</body>
+</html>
