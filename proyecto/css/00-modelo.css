@@ -60,6 +60,9 @@ fecha: Marzo
 		  
 		  padding-top:45px;background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg');
 		  
+		} 
+		.contenido8{
+			padding-top:45px;background-image: url('https://vidalse.github.io/trabajoVidal3trimestre/proyecto/fotos/descarga(1).jpg');height: 199vh;
 		}
 .contenidoNormas{
 	min-height;
@@ -183,7 +186,10 @@ transform: scale(1.6);
 body {
   background: #000;
 }
-
+.front{
+	
+	height:100%;width:100%;
+}.background4{height:100%;width:100%}
 .container {
   width: 100%;
   background: #000;
