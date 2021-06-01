@@ -119,19 +119,7 @@ function contClicks(){
     }
 $("#contador").text('Has cargado '+sessionStorage.clickcount+' veces la pagina');
 }}
-/* 
-JavaScript / XML
-web o pagina: ejercicios de XML y JavaScript
-autor: Prof. Carlos Boni
-fecha: 25 mayo 2021
-resumen: lectura y carga en array bidimensional de un XML
 
-sintesis:
-la lógica se basa en el uso de tres variables de tipo sessionStorage
-usuarioLogueado : si existe, su valor es el nombre de usuario en sesion
-usuarioIntentando y claveIntentando: si existen significa que debemos
-validarlas para crear usuarioLogueado si corresponde
-*/
 
 let usrIntentando = "";
 let claveIntentando = "";
@@ -181,7 +169,7 @@ function controlar(){
 		
 
 		var xhr = new XMLHttpRequest();
-		xhr.open("GET", "https://carlosboniniklison.github.io/publico/ejercicios/xml/registrados.xml", true);
+		xhr.open("GET", "https://vidalse.github.io/trabajoVidal3trimestre/proyecto/xml/registrados.xml", true);
 		xhr.responseType = 'document';
 		xhr.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
