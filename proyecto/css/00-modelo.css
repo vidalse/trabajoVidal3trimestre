@@ -9,7 +9,12 @@ fecha: Marzo
 		  margin: 0px;
 
 		}
-		
+#abejaV{
+	height:85px;
+	width:85px;
+}
+#fondoabeja{
+margin-left:10%;}
 	.container-dolly{
   min-height: 100%;
 }
