@@ -9,7 +9,15 @@ fecha: Marzo
 		  margin: 0px;
 
 		}
-		
+#abejaV{
+	height: 82%;
+    /* width: 200px; */
+    margin-top: 9%;
+    /* margin-right: 30%; */
+    margin-left: -18%;
+}
+#fondoabeja{
+margin-left:20%;}
 	.container-dolly{
   min-height: 100%;
 }
@@ -76,8 +84,7 @@ fecha: Marzo
 }
 .contenidoNormas2{
 			overflow:auto;
-			 background-color:rgba(0,0,255,0.1);
-	background-color: rgba(204, 245, 255); 
+			
 }
 #textofotocontact{text-align:center; background-color:#e3dfd7; margin-left:10%;margin-top:5%;border-radius: 34px 28px 28px 28px;
 -moz-border-radius: 34px 28px 28px 28px;
@@ -388,7 +395,7 @@ border: 2px groove #bf54bf;
 		
 		
 		.contenedorprimero{
-			
+			text-align:center;
 			margin-bottom:2%;
 		}
 		#textoinicial1 a:hover {
