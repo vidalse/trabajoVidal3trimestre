@@ -1,10 +1,13 @@
 .proyectoContainer{
      
 }
-.proyectoContainer a:hover{
+.proyectoContainer :hover {
 		 border-radius: 78px 47px 85px 47px;
 		 -moz-border-radius: 78px 47px 85px 47px;
 		 -webkit-border-radius: 78px 47px 85px 47px;
 		 border: 2px groove #bf54bf;
-		 
+		 color:white;
 		}
+	*{
+	 background-color:green;
+	}
