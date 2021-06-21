@@ -153,9 +153,9 @@ line-height:1.5;
   animation: move 40s ease;
   /* Add infinite to loop. */
   
-  -ms-animation: move 40s ease;
-  -webkit-animation: move 40s ease;
-  -0-animation: move 40s ease;
+  -ms-animation: move 20s ease;
+  -webkit-animation: move 20s ease;
+  -0-animation: move 20s ease;
   -moz-animation: move 20s ease;
   position: absolute;
 }
@@ -179,6 +179,49 @@ line-height:1.5;
     
     -moz-transform: scale(1.0);
     /* Firefox */
+  }
+  15%{
+	  transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    
+    -webkit-transform: scale(1.5);
+    /* Safari and Chrome */
+    
+    -o-transform: scale(1.5);
+    /* Opera */
+    
+    -moz-transform: scale(1.5);
+  /* Firefox */}
+	25%{
+	  transform: scale(2);
+    -ms-transform: scale(2);
+    /* IE 9 */
+    
+    -webkit-transform: scale(2);
+    /* Safari and Chrome */
+    
+    -o-transform: scale(2);
+    /* Opera */
+    
+    -moz-transform: scale(2);
+    /* Firefox */
+  }
+  35%{
+	  
+	  transform: scale(2.5);
+    -ms-transform: scale(2.5);
+    /* IE 9 */
+    
+    -webkit-transform: scale(2.5);
+    /* Safari and Chrome */
+    
+    -o-transform: scale(2.5);
+    /* Opera */
+    
+    -moz-transform: scale(2.5);
+    /* Firefox */
+  
   }
   100% {
     transform: scale(1.2);
