@@ -150,7 +150,7 @@ line-height:1.5;
 
 .image-wrap img {
   width: 100%;
-  animation: move 40s ease;
+  animation: move 20s ease;
   /* Add infinite to loop. */
   
   -ms-animation: move 20s ease;
@@ -238,10 +238,7 @@ line-height:1.5;
     /* Firefox */
   }
 }
-Run Pen 
 
-
-Resources
 		
 		
 	}
