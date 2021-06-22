@@ -404,7 +404,7 @@ body {
 }
 .container:hover .front {
   -webkit-transform: scale(-1.4);
-      -ms-transform: scale(-1.4);<!--
+      -ms-transform: scale(-1.4);
           transform: scale(-1.4);
 }
 
