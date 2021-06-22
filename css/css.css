@@ -1,7 +1,7 @@
 .proyectoContainer{
      
 }
-.proyectoContainer :hover {
+.proyectoContainer ul:hover {
 		 border-radius: 78px 47px 85px 47px;
 		 -moz-border-radius: 78px 47px 85px 47px;
 		 -webkit-border-radius: 78px 47px 85px 47px;
