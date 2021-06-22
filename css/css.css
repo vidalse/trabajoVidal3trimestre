@@ -1,8 +1,5 @@
-.proyectoContainer{
-	margin-top:20%;
-     margin-left:45%;
-}
-.inicio{
+
+.bloque{
 	width:500px;
 	height:500px;
 	background:#fff;
@@ -17,6 +14,31 @@
 	flex-wrap:wrap;
 	
 }
+.subbloquepdf{
+	color:#fff;
+	margin:5px;
+	width:200px;
+	height:50px;
+	background:#E67E22;
+	text-align:center;
+}
+.subbloquecenec{
+	color:#fff;
+	margin:5px;
+	width:200px;
+	height:50px;
+	background:#E67E22;
+	text-align:center;
+}
+.subbloqueproyecto{
+	color:#fff;
+	margin:5px;
+	width:200px;
+	height:50px;
+	background:#E67E22;
+	text-align:center;
+}
+
 .proyectoContainer ul:hover {
 		 border-radius: 78px 47px 85px 47px;
 		 -moz-border-radius: 78px 47px 85px 47px;
