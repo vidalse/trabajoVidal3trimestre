@@ -22,6 +22,15 @@
 	background:#E67E22;
 	text-align:center;
 }
+.contenedor{
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+justify-content:space-around;
+}
+.elemento{
+width:21%;
+}
 .subbloquecenec{
 	color:#fff;
 	margin:30px;
