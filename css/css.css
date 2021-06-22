@@ -1,23 +1,43 @@
 .proyectoContainer{
-     
+	margin-top:20%;
+     margin-left:45%;
+}
+.inicio{
+	width:500px;
+	height:500px;
+	background:#fff;
+	padding:10px;
+	border:10px solid #2C3E50;
+	margin:20px;
+	display:-webki-flex;
+	display:-ms-flexbox;
+	display:flex;
+	
+	flex-direction:row;
+	flex-wrap:wrap;
+	
 }
 .proyectoContainer ul:hover {
 		 border-radius: 78px 47px 85px 47px;
 		 -moz-border-radius: 78px 47px 85px 47px;
 		 -webkit-border-radius: 78px 47px 85px 47px;
-		 border: 2px groove #bf54bf;
+		 border: 1px groove #bf54bf;
 		 color:white;
 		}
+		
 	*{
 	 background-color:green;
 	}
-	
-	.encabezado{
-		text-align:center;
+	.h1{
+		text-align :center;
 		  font-family: "Brush Script MT", Cursive;
 		  font-size:30px;
 		  color:white;
-		  background-color:green;
+		
+	}
+	.encabezado{
+		
+		  
 		
 	}
 	
