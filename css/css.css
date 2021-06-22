@@ -11,3 +11,14 @@
 	*{
 	 background-color:green;
 	}
+	
+	.encabezado{
+		text-align:center;
+		  font-family: "Brush Script MT", Cursive;
+		  font-size:30px;
+		  color:white;
+		  background-color:green;
+		
+	}
+	
+	
